@@ -103,15 +103,19 @@ Use the standalone HTML file anywhere
 📁 Project Structure
 
 portfolio-builder/
-├── public/               # Static files
+├── public/                 # Static assets
 ├── src/
-│   ├── components/ui/    # Reusable UI (shadcn)
-│   ├── App.jsx           # Main logic
-│   ├── App.css           # Global styles
-│   └── main.jsx          # Entry point
-├── dist/                 # Built app (post build)
-├── package.json          # Scripts and dependencies
-└── vite.config.js        # Vite configuration
+│   ├── components/
+│   │   └── ui/            # shadcn/ui components
+│   ├── App.jsx            # Main application component
+│   ├── App.css            # Global styles
+│   └── main.jsx           # Application entry point
+├── dist/                  # Built application (after npm run build)
+├── package.json           # Dependencies and scripts
+├── vite.config.js         # Vite configuration
+└── README.md              # This file
+
+
 ✅ Key Features Implemented
 Core
 ✅ Tabbed input form
